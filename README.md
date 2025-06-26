@@ -1,38 +1,109 @@
 # AQI-Predictor
 
-AQI Prediction is a multi-page web application built using Streamlit that displays air quality information for selected locations such as Karyavattom, Kollam, and Eloor.
-
-The app is designed with a calm and aesthetic sky-themed background to reflect the air/environment theme. It features custom-styled buttons, smooth navigation, and a user-friendly layout, making it both informative and visually appealing.
-
-This project demonstrates how data visualization and basic navigation can be beautifully combined using Python and Streamlit. It serves as a strong foundation for more advanced applications in environmental data, public dashboards, and ML-based prediction tools.
+Absolutely Jephy! Here's the full GitHub-ready content for your README.md file — including project description, features, how it works, and setup. You can copy and paste this directly into your GitHub repo:
 
 
-✅ Key Features
+---
 
-🌤 Aesthetic UI: Sky-themed background enhances readability and reflects the clean air concept.
+🌫 AQI Prediction Web App
 
-🧭 Multi-Page Navigation: Users can switch between different location-based AQI pages seamlessly.
-
-🎨 Custom-Styled Buttons: Professionally designed buttons with hover effects and alignment.
-
-📍 Location Pages: Separate pages for each place – Karyavattom, Kollam, and Eloor – which can later be linked to real AQI data or prediction models.
-
-📈 Easily Extendable: You can add charts, maps, and machine learning models for future upgrades.
-
-⚙ Clean and Scalable Code: Modular structure for easy development and deployment.
-
-🌐 Deployable: Can be hosted on Streamlit Cloud or any Python-compatible platform.
+AQI Prediction is a multi-page web application built using Streamlit to display air quality information for locations like Karyavattom, Kollam, and Eloor. The app features an aesthetic sky-themed UI, clean navigation, and custom-styled buttons for a smooth user experience.
 
 
-🔮 Future Enhancements
+---
 
-Integrate with live AQI APIs (like OpenWeather or WAQI)
+✅ Features
 
-Use LSTM or Prophet models to predict AQI trends
+🌤 Sky-Themed Background for a peaceful, relevant UI
 
-Add charts and visual comparisons between locations
+🖱 Styled Buttons with hover effect and shadow
 
-Create admin dashboards or alerts for critical air levels
+📍 Multi-Page Navigation using st.switch_page()
+
+🗂 Separate Pages for Karyavattom, Kollam, and Eloor
+
+📈 Extendable Design for adding AQI prediction models or live APIs
+
+🔧 Clean Code organized by components for easy updates
+
+
+
+---
+
+⚙ How It Works
+
+1. The app starts at aqi_prediction_home.py, displaying the title and location buttons.
+
+
+2. Users select a location (e.g., Kollam), triggering st.switch_page() to navigate to the respective page (aqi_prediction_kollam.py).
+
+
+3. Each location page displays a custom message (can later include AQI graphs, data, etc.).
+
+
+4. Background styling and buttons are customized using embedded CSS.
+
+
+5. The project is structured to allow easy integration of ML models, APIs, or data visualizations.
+
+
+
+
+---
+
+📁 Project Structure
+
+AQI-Prediction/
+├── aqi_prediction_home.py
+├── pages/
+│   ├── aqi_prediction_kollam.py
+│   ├── aqi_prediction_eloor.py
+│   └── aqi_prediction_kryvttm.py
+├── requirements.txt
+└── README.md
+
+
+---
+
+🚀 How to Run
+
+1. Clone the repo
+
+
+
+git clone https://github.com/your-username/AQI-Prediction.git
+cd AQI-Prediction
+
+2. Install dependencies
+
+
+
+pip install -r requirements.txt
+
+3. Run the app
+
+
+
+streamlit run aqi_prediction_home.py
+
+
+
+💡 Future Scope
+
+Add live AQI API integration (e.g., OpenWeather, WAQI)
+
+Predict AQI trends using ML models like LSTM or Prophet
+
+Visualize historical AQI with charts and interactive plots
+
+Create user dashboards for tracking air quality over time
+
+
+
+👩‍💻 Developed by: Jephy Joseph
+
+
+
 
 
 
