@@ -1,9 +1,7 @@
 # AQI-Predictor
 
-Absolutely Jephy! Here's the full GitHub-ready content for your README.md file — including project description, features, how it works, and setup. You can copy and paste this directly into your GitHub repo:
 
 
----
 
 🌫 AQI Prediction Web App
 
